@@ -1,0 +1,144 @@
+.profile-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* height: 200%; */
+    overflow: hidden;
+    min-height: fit-content;
+    background-image: url("../../assets/Home/bg.jpg");
+}
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.profile-detail{
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.profilerole{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+.profilerole h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+.primarytext{
+    color: (--white);
+}
+.highlightedtext{
+    color: var(#FF5823);
+}
+.profiletagline{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+.profileoption .highlighted-btn:hover{
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
+.profilepic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0px 0px 0px 100px;
+}
+.profilepic-background{
+    height: 92%;
+    width: 92%;
+    background-image: url(../../assets/Home/profile\ 1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+.profilepic-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+
+}
+.colz .clozicon i{
+    padding: 8px;
+    color: white;
+    padding-left: 0px;
+}
+
+.colz .clozicon i:hover{
+    transform: scale(1.5);
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding: 8px;
+    color: white;
+}
+
+@media screen and (max-width: 1110px) {
+    .profilepic{
+        margin: 0 0 0px 80px;
+
+    }
+    .profile-detail{
+        font-size: 20px;
+    }
+    .profilerole .primarytext{
+font-size: 12px;
+    }
+    .profileoption .btn{
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+@media screen and (max-width: 910px){
+    .profilepic{
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+}
+@media screen and(max-width: 810px){
+    .profilepic{
+        margin: 0 !important;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .profileoption{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-detail{
+        margin: 25px 0 0;
+    }
+    .profileoption .highlighted-btn{
+        margin: 0 !important;
+    }
+    .profileoption,
+     .profilerole{
+        text-align: center;
+    }
+}
+@media screen and(max-width: 375px){
+    .profilepic{
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+    .profile-detail{
+        margin: 90%;
+    }
+}
