@@ -6,7 +6,7 @@
     /* height: 200%; */
     overflow: hidden;
     min-height: fit-content;
-    background-image: url("../../assets/Home/bg.jpg");
+    background-image: url("../../assets/fonts/bg.jpg");
 }
 .profile-parent{
     display: flex;

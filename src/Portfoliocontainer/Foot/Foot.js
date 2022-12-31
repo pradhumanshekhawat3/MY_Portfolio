@@ -14,7 +14,7 @@ export default function () {
 					<p class="footer-links">
 						<a href="#">Home</a>
 						·
-						<a href="About">About Me</a>
+						<a href="#About">About Me</a>
 						·
 						<a href="#">Skills</a>
 						·

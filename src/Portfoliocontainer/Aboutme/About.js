@@ -4,7 +4,8 @@ export default function About() {
   return (
     <div className='main-container'>
 
-      <div className="main-about">
+      <div id="About"
+    className="main-about">
         <h1>About Me</h1>
         <p>Hello! I’m Pradhuman Singh Shekhawat.I am from Jaipur (Rajasthan).
           I am Persuing B-Tech(Computer Science & Engineering) from Central University of Haryana.

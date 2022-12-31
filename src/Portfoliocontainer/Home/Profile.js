@@ -14,7 +14,8 @@ export default function () {
                             <a href="">
                                 <i className='fa fa-instagram'></i>
                             </a>
-                            <a href="#">
+                            <a href="mailto:pradhumanshekhawat3@gmail.com">
+                                
                                 <i className='fa fa-google-plus'></i>
                             </a>
                             <a href="https://github.com/pradhumanshekhawat3">
